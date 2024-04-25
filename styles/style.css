@@ -37,15 +37,17 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
     background-color: var(--yellow);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     max-width: 1440px;
     padding: 1.5rem;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Card Styles */
@@ -67,6 +69,11 @@ body {
     justify-content: space-around;
     border: 2px solid var(--black);
     box-shadow: 0.8rem 0.8rem 0 var(--black);
+    transition: box-shadow 250ms ease-in-out 30ms ;
+    -webkit-transition: box-shadow 250ms ease-in-out 30ms ;
+    -moz-transition: box-shadow 250ms ease-in-out 30ms ;
+    -ms-transition: box-shadow 250ms ease-in-out 30ms ;
+    -o-transition: box-shadow 250ms ease-in-out 30ms ;
 }
 
 .card-img {

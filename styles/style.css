@@ -158,12 +158,18 @@ body {
     -o-transition: color 100ms ease-in-out 30ms;
 }
 
-.card:hover {
+/* .card:hover {
     box-shadow: 1.5rem 1.5rem 0 var(--black);
 
+} */
+.card:has(.title > .title__link:hover){
+    box-shadow: 1.5rem 1.5rem 0 var(--black);
 }
 
-.card:hover>.card-details .article-details .article-details__title .title .title__link {
+/* .card:hover>.card-details .article-details .article-details__title .title .title__link {
+    color: var(--yellow);
+} */
+.title__link:hover{
     color: var(--yellow);
 }
 

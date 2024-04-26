@@ -69,11 +69,11 @@ body {
     justify-content: space-around;
     border: 2px solid var(--black);
     box-shadow: 0.8rem 0.8rem 0 var(--black);
-    transition: box-shadow 250ms ease-in-out 30ms ;
-    -webkit-transition: box-shadow 250ms ease-in-out 30ms ;
-    -moz-transition: box-shadow 250ms ease-in-out 30ms ;
-    -ms-transition: box-shadow 250ms ease-in-out 30ms ;
-    -o-transition: box-shadow 250ms ease-in-out 30ms ;
+    transition: all 250ms ease-in-out 30ms ;
+    -webkit-transition: all 250ms ease-in-out 30ms ;
+    -moz-transition: all 250ms ease-in-out 30ms ;
+    -ms-transition: all 250ms ease-in-out 30ms ;
+    -o-transition: all 250ms ease-in-out 30ms ;
 }
 
 .card-img {
@@ -164,6 +164,11 @@ body {
 } */
 .card:has(.title > .title__link:hover){
     box-shadow: 1.5rem 1.5rem 0 var(--black);
+    transform: translate(-0.7rem,-0.7rem);
+    -webkit-transform: translate(-0.7rem,-0.7rem);
+    -moz-transform: translate(-0.7rem,-0.7rem);
+    -ms-transform: translate(-0.7rem,-0.7rem);
+    -o-transform: translate(-0.7rem,-0.7rem);
 }
 
 /* .card:hover>.card-details .article-details .article-details__title .title .title__link {
